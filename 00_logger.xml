@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger name="Q2" class="org.jpos.q2.qbean.LoggerAdaptor">
+  <log-listener class="org.jpos.util.ProtectedLogListener">
+    <property name="protect" value="2 35 36 45 55"/>
+    <property name="wipe" value="52 96"/>
+  </log-listener>
+  <log-listener class="org.jpos.util.DailyLogListener">
+    <property name="window" value="86400"/>
+    <!-- optional, default one day -->
+    <!--needed-->
+    <property name="prefix" value="log/srvclient"/>
+    <property name="suffix" value=".log"/>
+    <property name="compression-format" value="gzip"/>
+    <!-- optional -->
+  </log-listener>
+</logger>
+

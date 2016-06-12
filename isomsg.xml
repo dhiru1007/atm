@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<isomsg direction="incoming">
+      <field id="0" value="0200"/>
+      <field id="2" value="011000087601"/>
+      <field id="3" value="011000"/>
+      <field id="4" value="000000010000"/>
+      <field id="7" value="0824233103"/>
+      <field id="11" value="999187"/>
+      <field id="12" value="233105"/>
+      <field id="13" value="0824"/>
+      <field id="15" value="0824"/>
+      <field id="17" value="0824"/>
+      <field id="28" value="C00000000"/>
+      <field id="32" value="622018"/>
+      <field id="35" value="6072992102599055D23095207860010000000"/>
+      <field id="37" value="423623030009"/>
+      <field id="38" value="999187"/>
+      <field id="41" value="12221050"/>
+      <field id="43" value="SBI  ZOO GATE DALIBAG  LUCKNOW      UPIN"/>
+      <field id="48" value="6072992102599055"/>
+      <field id="49" value="356"/>
+      <field id="50" value="000"/>
+      <field id="60" value="2014201420142014"/>
+    </isomsg>
