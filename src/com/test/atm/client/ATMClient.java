@@ -32,7 +32,7 @@ import org.jpos.iso.packager.GenericPackager;
 
 /**
  *
- * @author root
+ * @author Dhirendra Chaudhary
  */
 public class ATMClient {
 
