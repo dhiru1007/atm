@@ -33,7 +33,7 @@ import java.util.Properties;
 
 /**
  *
- * @author root
+ * @author Dhirendra Chaudhary
  */
 public class AtmTest {
 
@@ -88,7 +88,7 @@ public class AtmTest {
                 String[] inParams = {"01", stan.toString(), "90824001", "001000026201", "", "000000010000", "6072992102599055D23095207860010000000",
                     "999187", "", "C00000000", "423623030009", "622018", "SBI  ZOO GATE DALIBAG  LUCKNOW UPIN", "6072992102599055", "", "", "", "", ""};
                 String[] outParams = new String[7];
-                CallDBProc("ATM_NORMAL_TRANSACTION_PROCESS", inParams, outParams);
+                CallDBProc("proc-name", inParams, outParams);
                 Thread.sleep(1000);
             }
             this.con.close();
