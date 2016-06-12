@@ -38,7 +38,7 @@ public class ATMClient {
 
     public static void main(String args[]) {
         try {
-            GenericPackager packager = new GenericPackager("/backup/Project/ATMInterface/iso87ascii.xml");
+            GenericPackager packager = new GenericPackager(iso87ascii.xml");
             String data = "02520200723A80112CA1C01014001430201964163010000000000000000115160126574968160126011501150115C00000000041111376073122014108147D1301126183094460000040151657496857496890993001TEST ATM PUNE          PUNE         MHIN01660731220141081473560000162014201420142014";
             // Create ISO Message
             ISOMsg isoMsg = new ISOMsg();
