@@ -7,9 +7,9 @@
   <property name="packager-config" value="cfg/iso87ascii-binary-bitmap.xml"/>
  </channel>
  <request-listener class="in.net.sarvatra.hostserver.RequestDispatcher" logger="Q2" realm="bank-host">
-                <property name="poolName" value="cbshost"/>
-                <property name="txnProcedure" value="ATM_NORMAL_TRANSACTION_PROCESS"/>
-                <property name="reversalProcedure" value="ATM_NORMAL_REVERSAL_TRANSACTION_PROCESS"/>
-                <property name="offusProcedure" value="ATM_OFF_US_TRANSACTION_PROCESS"/>
+                <property name="poolName" value="testPool"/>
+                <property name="txnProcedure" value="normal_txn_proc_name"/>
+                <property name="reversalProcedure" value="reversal_proc_name"/>
+                <property name="offusProcedure" value="off_us_txn_proc_name"/>
  </request-listener>
 </server>
